@@ -61,3 +61,7 @@ h5 {
 h2.destination {
     font-family: Tahoma;
 }
+
+.description h5 {
+    color: blueviolet;
+}

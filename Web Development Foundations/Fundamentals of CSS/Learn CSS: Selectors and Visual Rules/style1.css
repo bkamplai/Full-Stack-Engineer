@@ -45,3 +45,15 @@ a:hover {
 #publish-class {
     color: gray;
 }
+
+h5 {
+    color: yellow;
+}
+
+.author-class {
+    color: pink;
+}
+
+#author-id {
+    color: cornflowerblue;
+}

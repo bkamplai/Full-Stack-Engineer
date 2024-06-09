@@ -87,7 +87,7 @@ body {
   
   .question {
     text-align: center;
-    position: relative;
+    position: sticky;
     top: 40px;
   }
   

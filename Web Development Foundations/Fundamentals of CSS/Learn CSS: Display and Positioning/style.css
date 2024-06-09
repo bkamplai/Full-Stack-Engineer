@@ -83,7 +83,8 @@ body {
   
   .question {
     text-align: center;
-    position: static;
+    position: relative;
+    top: 40px;
   }
   
   .answer {

@@ -89,7 +89,7 @@ To explore my progress:
 
 1. Clone this repository:
    ```sh
-   git clone https://github.com/yourusername/full-stack-engineer-progress.git
+   git clone https://github.com/bkamplai/Full-Stack-Engineer.git
    ```
 2. Navigate to the project or topic you're interested in:
    ```sh

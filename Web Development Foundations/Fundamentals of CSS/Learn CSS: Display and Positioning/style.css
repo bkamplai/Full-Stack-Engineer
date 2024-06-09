@@ -93,13 +93,13 @@ body {
     text-align: center;
     position: sticky;
     top: 40px;
+    clear: left;
   }
   
   .answer {
     border: 1px solid #466995;
     margin: 20px;
     display: inline-block;
-    float: left;
   }
   
   .answer:hover {

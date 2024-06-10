@@ -28,11 +28,14 @@
     /* border-radius: 10px;
     box-shadow: 0px 4px; */
   }
+
+  .answer:hover {
+    background-color: #c0d6df;
+  }
   
   .answer:active {
     /* margin-top: 24px;
     margin-bottom: 16px;
     box-shadow: 0px 0px; */
-    background-color: #c0d6df;
     color: #ffffff;
   }

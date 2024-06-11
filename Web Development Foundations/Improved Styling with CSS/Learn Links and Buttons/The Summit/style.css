@@ -1,0 +1,104 @@
+a {
+    color: #2176FF;
+    text-decoration: none;
+    transition: color 0.3s, background-color 0.3s, text-decoration 0.3s;
+}
+
+a:hover {
+    color: #FF6F61;
+    text-decoration: underline;
+    background-color: #f0f0f0;
+}
+
+.nav-link:hover {
+    color: #FF6F61;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+.nav-link {
+    color: #2176FF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: color 0.3s, background-color 0.3s, border-bottom 0.3s;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-link:hover {
+    color: #FF6F61;
+    background-color: #f0f0f0;
+    border-bottom: 2px solid #FF6F61;
+    border-radius: 5px;
+}
+
+.nav-link:active {
+    color: #FF6F61;
+    border-bottom: 2px solid #FF6F61;
+}
+
+.btn {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    background-color: #2176FF;
+    color: #ffffff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, transform 0.2s, box-shadow 0.2s;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+    background-color: #FF6F61;
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.btn:active {
+    background-color: #e65550;
+    color: #ffffff;
+    transform: translateY(2px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.activity {
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 24px;
+    background-color: #2176FF;
+    color: #ffffff;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, transform 0.2s, box-shadow 0.2s;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+.activity:hover {
+    background-color: #FF6F61;
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.activity:active {
+    background-color: #e65550;
+    color: #ffffff;
+    transform: translateY(2px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

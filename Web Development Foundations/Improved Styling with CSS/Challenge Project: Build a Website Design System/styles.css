@@ -1,0 +1,331 @@
+/* Define CSS Variables */
+:root {
+    --primary-color: #3498db; /* Primary Blue */
+    --secondary-color: #2ecc71; /* Secondary Green */
+    --neutral-color: #ecf0f1; /* Light Gray */
+    --accent-color: #e74c3c; /* Accent Red */
+    --background-color: #ffffff; /* White Background */
+    --text-color: #2c3e50; /* Dark Text */
+    --font-primary: 'Roboto', sans-serif;
+    --font-secondary: 'Open Sans', sans-serif;
+    --info-color: #3498db; /* Info Blue */
+    --success-color: #2ecc71; /* Success Green */
+    --warning-color: #f1c40f; /* Warning Yellow */
+    --danger-color: #e74c3c; /* Danger Red */
+}
+
+/* Reset some default styles */
+body, h1, h2, h3, p, blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body Styles */
+body {
+    font-family: var(--font-primary);
+    color: var(--text-color);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+}
+
+/* Grid System */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.col {
+    flex: 1;
+    padding: 0 15px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .col {
+        padding: 0 10px;
+    }
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 40px;
+}
+
+/* Box Model Properties */
+.box {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid var(--neutral-color);
+    border-radius: 5px;
+    background-color: var(--background-color);
+}
+
+/* Color Section */
+#colors {
+    padding: 20px;
+}
+
+.color-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.color-swatch {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    margin-right: 20px;
+    border: 1px solid var(--text-color);
+}
+
+.color-details {
+    font-family: var(--font-primary);
+}
+
+.color-details h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: var(--text-color);
+}
+
+.color-details p {
+    margin: 2px 0;
+    color: var(--text-color);
+}
+
+/* Typography Section */
+#typography {
+    padding: 20px;
+}
+
+.font-sample {
+    margin-bottom: 20px;
+}
+
+.font-sample h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: var(--text-color);
+}
+
+.font-regular {
+    font-family: var(--font-primary);
+    font-weight: 400;
+    font-size: 1em;
+    color: var(--text-color);
+}
+
+.font-bold {
+    font-family: var(--font-primary);
+    font-weight: 700;
+    font-size: 1em;
+    color: var(--text-color);
+}
+
+.font-italic {
+    font-family: var(--font-primary);
+    font-style: italic;
+    font-size: 1em;
+    color: var(--text-color);
+}
+
+.font-underline {
+    font-family: var(--font-primary);
+    font-size: 1em;
+    color: var(--text-color);
+    text-decoration: underline;
+}
+
+/* Secondary Font Styles */
+.font-sample h3 + .font-regular {
+    font-family: var(--font-secondary);
+}
+
+.font-sample h3 + .font-bold {
+    font-family: var(--font-secondary);
+}
+
+.font-sample h3 + .font-italic {
+    font-family: var(--font-secondary);
+}
+
+.font-sample h3 + .font-underline {
+    font-family: var(--font-secondary);
+}
+
+/* Text Styles Section */
+#text-styles {
+    padding: 20px;
+}
+
+.text-style {
+    margin-bottom: 30px;
+}
+
+.text-style h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: var(--text-color);
+}
+
+.text-style p {
+    font-family: var(--font-primary);
+    color: var(--text-color);
+    margin: 5px 0;
+}
+
+/* Specific Text Styles */
+h1 {
+    font-family: var(--font-primary);
+    font-size: 2.5em;
+    font-weight: 700;
+    color: var(--text-color);
+    margin: 20px 0;
+}
+
+h2 {
+    font-family: var(--font-primary);
+    font-size: 2em;
+    font-weight: 700;
+    color: var(--text-color);
+    margin: 15px 0;
+}
+
+h3 {
+    font-family: var(--font-primary);
+    font-size: 1.75em;
+    font-weight: 700;
+    color: var(--text-color);
+    margin: 15px 0;
+}
+
+p {
+    font-family: var(--font-secondary);
+    font-size: 1em;
+    font-weight: 400;
+    color: var(--text-color);
+    margin: 10px 0;
+}
+
+blockquote {
+    font-family: var(--font-secondary);
+    font-size: 1.2em;
+    font-style: italic;
+    color: var(--text-color);
+    margin: 20px 0;
+    padding: 10px 20px;
+    border-left: 5px solid var(--primary-color);
+    background-color: var(--neutral-color);
+}
+
+/* Alert Styles */
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.alert-info {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+
+.alert-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.alert-warning {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+}
+
+.alert-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+/* Button Styles */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button-primary {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.button-secondary {
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+
+.button-success {
+    background-color: var(--success-color);
+    color: #fff;
+}
+
+.button-warning {
+    background-color: var(--warning-color);
+    color: #fff;
+}
+
+.button-danger {
+    background-color: var(--danger-color);
+    color: #fff;
+}
+
+.button:hover {
+    opacity: 0.8;
+}

@@ -29,6 +29,7 @@ h2 {
 
 .top.side {
   flex-grow: 1;
+  flex-shrink: 2;
 }
 
 .top.center {
@@ -36,6 +37,7 @@ h2 {
 }
 
 .middle.side {
+  flex-shrink: 0;
 }
 
 .middle.center {
@@ -48,6 +50,7 @@ h2 {
 
 .bottom.center {
   flex-grow: 2;
+  flex-shrink: 2;
 }
 
 #top,

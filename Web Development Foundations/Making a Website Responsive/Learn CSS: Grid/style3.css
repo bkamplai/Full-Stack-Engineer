@@ -12,6 +12,7 @@ main {
     gap: 20px;
     margin-top: 44px;
     justify-items: center;
+    justify-content: center;
 }
 
 h2 {

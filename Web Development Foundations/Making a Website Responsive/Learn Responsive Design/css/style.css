@@ -125,3 +125,9 @@ nav a {
         width: 95%;
     }
 }
+
+@media only screen and (min-resolution: 150dpi) {
+    .logo {
+        background-image: url("../img/spaceship@2x.png");
+    }
+}

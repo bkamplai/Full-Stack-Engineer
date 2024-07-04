@@ -24,7 +24,7 @@ body {
     height: 46rem;
     background-image: url('https://14db34a581f74d7d87fc8bc7b32a12d5.cc-propeller.cloud/camel-background.png');
     background-position: center;
-
+    background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;

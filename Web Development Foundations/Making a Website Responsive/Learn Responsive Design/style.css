@@ -99,3 +99,7 @@ footer {
     color: #999999;
     text-align: center;
 }
+
+p {
+    min-width: 200px;
+}

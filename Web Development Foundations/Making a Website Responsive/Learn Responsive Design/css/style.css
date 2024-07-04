@@ -131,3 +131,9 @@ nav a {
         background-image: url("../img/spaceship@2x.png");
     }
 }
+
+@media only screen and (max-resolution: 150dpi) and (max-width: 480px) {
+    .page-description {
+        font-size: 20px;
+    }
+}

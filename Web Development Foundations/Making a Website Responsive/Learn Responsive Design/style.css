@@ -8,15 +8,21 @@ body {
     background-color: white;
 }
 
-.image-container {}
+.image-container {
+    overflow: hidden;
+}
 
-.image-container img {}
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
 
 /* Banner Section */
 
 #banner {
     height: 46rem;
-    background-image: url('camel-background.png');
+    background-image: url('https://14db34a581f74d7d87fc8bc7b32a12d5.cc-propeller.cloud/camel-background.png');
     background-position: center;
 
     background-repeat: no-repeat;

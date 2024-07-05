@@ -79,9 +79,28 @@ The Full-Stack Engineer Career Path covers a broad range of topics, including:
 
 Here are some of the projects I have completed:
 
-1. 
-
-Each project folder contains the project code, a description, and instructions on how to run it.
+1. [Fashion Blog](https://bkamplai.github.io/Full-Stack-Engineer/Fashion%20Blog/)
+2. [Wine Festival Schedule](https://bkamplai.github.io/Full-Stack-Engineer/Wine%20Festival%20Schedule/)
+3. [New York City Blog](https://bkamplai.github.io/Full-Stack-Engineer/New%20York%20City%20Blog/)
+4. [Healthy Recipes](https://bkamplai.github.io/Full-Stack-Engineer/Healthy%20Recipes/)
+5. [Olivia Woodruff Portfolio](https://bkamplai.github.io/Full-Stack-Engineer/Olivia%20Woodruff%20Portfolio/)
+6. [The Box Model: Davie's Burgers](https://bkamplai.github.io/Full-Stack-Engineer/The%20Box%20Model%3A%20Davie's%20Burgers/)
+7. [Broadway](https://bkamplai.github.io/Full-Stack-Engineer/Broadway/)
+8. [Off-Platform Project: Dasmoto's Arts & Crafts](https://bkamplai.github.io/Full-Stack-Engineer/Off-Platform%20Project%3A%20Dasmoto's%20Arts%20&%20Crafts/)
+9. [Paint Store](https://bkamplai.github.io/Full-Stack-Engineer/Paint%20Store/)
+10. [Typography](https://bkamplai.github.io/Full-Stack-Engineer/Typography/)
+11. [Challenge Project: Build Your Own Cheat Sheet](https://bkamplai.github.io/Full-Stack-Engineer/Challenge%20Project%3A%20Build%20Your%20Own%20Cheat%20Sheet/)
+12. [The Summit](https://bkamplai.github.io/Full-Stack-Engineer/The%20Summit/)
+13. [FreshDeals: Blueberries](https://bkamplai.github.io/Full-Stack-Engineer/FreshDeals%3A%20Blueberries/blueberries.html)
+14. [Challenge Project: Build a Website Design System](https://bkamplai.github.io/Full-Stack-Engineer/Challenge%20Project%3A%20Build%20a%20Website%20Design%20System/)
+15. [Flexbox: To-Do App](https://bkamplai.github.io/Full-Stack-Engineer/Flexbox%3A%20To-Do%20App/)
+16. [Off-Platform Project: Tea Cozy](https://bkamplai.github.io/Full-Stack-Engineer/Off-Platform%20Project%3A%20Tea%20Cozy/)
+17. [PupSpa](https://bkamplai.github.io/Full-Stack-Engineer/PupSpa/)
+18. [CSS Grid: Task Board](https://bkamplai.github.io/Full-Stack-Engineer/CSS%20Grid%3A%20Task%20Board/)
+19. [Tsunami Coffee](https://bkamplai.github.io/Full-Stack-Engineer/Tsunami%20Coffee/)
+20. [Off-Platform Project: Fotomatic](https://bkamplai.github.io/Full-Stack-Engineer/Off-Platform%20Project:%20Fotomatic/fotomatic_broken/)
+21. [Challenge Project: Company Home Page with Flexbox](https://bkamplai.github.io/Full-Stack-Engineer/Challenge%20Project:%20Company%20Home%20Page/)
+22. [Challenge Project: Responsive Club Website](https://bkamplai.github.io/Full-Stack-Engineer/Challenge%20Project%3A%20Responsive%20Club%20Website/)
 
 ## How to Use This Repository
 

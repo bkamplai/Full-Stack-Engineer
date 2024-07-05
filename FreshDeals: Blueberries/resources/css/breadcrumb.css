@@ -1,0 +1,91 @@
+.breadcrumb {
+  display: flex;
+  list-style: none;
+  padding: 1rem 2rem;
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+  font-size: 0.875rem;
+  border-radius: 5px;
+}
+
+.breadcrumb li {
+  display: inline;
+  /* Ensure list items display inline */
+  margin-right: 1rem;
+}
+
+/* Add the symbol only between location breadcrumbs */
+.breadcrumb li.location+li.location::before {
+  content: "/";
+  margin-left: -1rem;
+  margin-right: 1rem;
+  color: #ccc;
+  /* Light grey color for the separator */
+}
+
+.breadcrumb li:last-child::before {
+  content: "";
+  margin: 0;
+}
+
+.breadcrumb .location a {
+  text-decoration: none;
+  /* Remove underline */
+  color: #0073e6;
+  /* Default color */
+  padding: 0.25rem 0.5rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.breadcrumb .location a:hover {
+  text-decoration: none;
+  /* Remove underline on hover */
+  color: #005bb5;
+  /* Change color on hover */
+  background-color: #e6f3ff;
+  /* Light blue background on hover */
+  border-radius: 3px;
+  /* Rounded corners */
+}
+
+.breadcrumb .attribute {
+  position: relative;
+}
+
+.breadcrumb .attribute a {
+  text-decoration: none;
+  /* Remove underline */
+  color: #ff6347;
+  /* Different color for attributes */
+  padding: 0.25rem 1.5rem 0.25rem 0.5rem;
+  /* Space for close notation */
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border-radius: 3px;
+  /* Rounded corners */
+}
+
+.breadcrumb .attribute a::after {
+  content: "x";
+  /* Close notation */
+  position: absolute;
+  right: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #ff6347;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.breadcrumb .attribute a:hover {
+  text-decoration: none;
+  /* Remove underline on hover */
+  color: #e5533b;
+  /* Change color on hover */
+  background-color: #ffe6e6;
+  /* Light red background on hover */
+}
+
+.breadcrumb .attribute a:hover::after {
+  color: #e5533b;
+  /* Change color of close notation on hover */
+}

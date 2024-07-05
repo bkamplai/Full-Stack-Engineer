@@ -1,0 +1,228 @@
+html,
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    background-color: white;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.main {
+    height: 30rem;
+    padding-top: 1rem;
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-5/tsunami-coffee/images/bg-photo.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.main img {
+    width: 15rem;
+    display: block;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+nav {
+    background-color: OrangeRed;
+    color: White;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+li {
+    display: inline-block;
+    padding: 0.75rem 1.25rem;
+}
+
+.supporting,
+.rating,
+.gallery,
+.location {
+    margin: 4em auto;
+}
+
+.supporting {
+    display: flex;
+    align-items: flex-start;
+    padding: 0 1rem;
+}
+
+.supporting img {
+    height: 10%;
+    width: 10%;
+    margin-right: 5%;
+}
+
+.rating {
+    background-color: OrangeRed;
+    height: 20rem;
+    padding: 0 1rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rating h1 {
+    font-size: 2.5rem;
+}
+
+.gallery img {
+    display: block;
+    width: 30%;
+    margin: 1.5%;
+    float: left;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.location {
+    text-align: center;
+    margin-bottom: 7rem;
+}
+
+.location img {
+    width: 100%;
+}
+
+footer {
+    background-color: OrangeRed;
+    padding: 0 1rem;
+}
+
+footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5em 0;
+    color: white;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 960px) {
+    .container {
+        max-width: 100%;
+        padding: 0 1rem;
+    }
+
+    .main {
+        padding-top: 0;
+    }
+
+    .main img {
+        width: 10rem;
+        margin-top: 2rem;
+    }
+
+    .supporting {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .supporting img {
+        width: 20%;
+        height: auto;
+        margin: 0 0 1rem 0;
+    }
+
+    .rating {
+        flex-direction: column;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .gallery img {
+        width: 100%;
+        margin: 0 0 1rem 0;
+    }
+
+    footer .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        padding: 0;
+        text-align: center;
+    }
+
+    nav li {
+        display: block;
+        padding: 0.5rem 0;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .supporting {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .supporting img {
+        display: none;
+    }
+
+    .description {
+        width: 100%;
+        padding: 0 1rem;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    .container {
+        padding: 0 0.5rem;
+    }
+
+    .main img {
+        width: 8rem;
+        margin-top: 1rem;
+    }
+
+    .rating {
+        padding: 0.5rem;
+    }
+
+    .rating h1 {
+        font-size: 2rem;
+    }
+
+    .gallery img {
+        width: 100%;
+        margin: 0;
+    }
+
+    .location img {
+        width: 100%;
+    }
+
+    footer .container {
+        padding: 2rem 0;
+    }
+
+    footer nav {
+        display: none;
+    }
+
+    nav ul {
+        padding: 0;
+    }
+
+    nav li {
+        display: block;
+        padding: 0.25rem 0;
+    }
+
+    .description {
+        padding: 0 0.5rem;
+    }
+}

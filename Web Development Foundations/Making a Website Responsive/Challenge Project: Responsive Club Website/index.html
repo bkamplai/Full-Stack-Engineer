@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASL Club</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header role="banner">
+        <div class="banner">
+            <h1>ASL Club</h1>
+            <p>Promoting the use and understanding of American Sign Language</p>
+        </div>
+        <nav role="navigation" aria-label="Main Navigation">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#membership">Membership</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main role="main">
+        <section id="about" aria-labelledby="about-heading">
+            <h2 id="about-heading">About Our Club</h2>
+            <p>Welcome to the ASL Club! We are dedicated to promoting the use and understanding of American Sign
+                Language. Join us for workshops, social events, and more.</p>
+            <figure>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Sign_Union_flag.svg/1920px-Sign_Union_flag.svg.png"
+                    alt="Deaf Flag with vibrant colors representing the Deaf community" class="deaf-flag">
+                <figcaption>By <a href="https://en.wikipedia.org/wiki/en:Arnaud_Balard" class="extiw"
+                        title="w:en:Arnaud Balard"><span title="French artist">Arnaud Balard</span></a> - Own work based
+                    on: <a href="//commons.wikimedia.org/wiki/File:Flag_of_the_Deaf_Community.jpg"
+                        title="File:Flag of the Deaf Community.jpg">Flag of the Deaf Community.jpg</a>, <a
+                        href="https://creativecommons.org/licenses/by-sa/4.0"
+                        title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a
+                        href="https://commons.wikimedia.org/w/index.php?curid=117962811">Link</a></figcaption>
+            </figure>
+        </section>
+
+        <section id="events" aria-labelledby="events-heading">
+            <h2 id="events-heading">Upcoming Events</h2>
+            <table class="calendar">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Event</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>March 3, 2024</td>
+                        <td>World Hearing Day</td>
+                    </tr>
+                    <tr>
+                        <td>March 13 - April 15, 2024</td>
+                        <td>National Deaf History Month</td>
+                    </tr>
+                    <tr>
+                        <td>July 20, 2024</td>
+                        <td>ASL Workshop</td>
+                    </tr>
+                    <tr>
+                        <td>August 10, 2024</td>
+                        <td>Deaf Awareness Week</td>
+                    </tr>
+                    <tr>
+                        <td>September 15, 2024</td>
+                        <td>Sign Language Social</td>
+                    </tr>
+                    <tr>
+                        <td>September 23, 2024</td>
+                        <td>International Day of Sign Languages</td>
+                    </tr>
+                    <tr>
+                        <td>Last Week of September</td>
+                        <td>International Week of the Deaf</td>
+                    </tr>
+                    <tr>
+                        <td>December 3, 2024</td>
+                        <td>International Day of Persons with Disabilities</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="membership" aria-labelledby="membership-heading">
+            <h2 id="membership-heading">Join Us</h2>
+            <p>Become a member of the ASL Club and get exclusive access to our events and activities.</p>
+            <button>Sign Up Now</button>
+        </section>
+
+        <section id="contact" aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <p>&copy; 2024 ASL Club. All rights reserved.</p>
+        <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>

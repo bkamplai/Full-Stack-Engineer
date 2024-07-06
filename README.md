@@ -103,6 +103,7 @@ Here are some of the projects I have completed:
 22. [Challenge Project: Responsive Club Website](https://bkamplai.github.io/Full-Stack-Engineer/Challenge%20Project%3A%20Responsive%20Club%20Website/)
 23. [Kelvin Weather](https://github.com/bkamplai/Full-Stack-Engineer/blob/main/Building%20Interactive%20Websites/JavaScript%20Syntax%2C%20Part%20I/Learn%20JavaScript%20Syntax%3A%20Introduction/Kelvin%20Weather/app.js)
 24. [Dog Years](https://github.com/bkamplai/Full-Stack-Engineer/blob/main/Building%20Interactive%20Websites/JavaScript%20Syntax%2C%20Part%20I/Learn%20JavaScript%20Syntax%3A%20Introduction/Dog%20Years/app.js)
+25. [Magic Eight Ball](https://github.com/bkamplai/Full-Stack-Engineer/blob/main/Building%20Interactive%20Websites/JavaScript%20Syntax%2C%20Part%20I/Learn%20JavaScript%20Syntax%3A%20Conditionals/Magic%20Eight%20Ball/main.js)
 
 ## How to Use This Repository
 

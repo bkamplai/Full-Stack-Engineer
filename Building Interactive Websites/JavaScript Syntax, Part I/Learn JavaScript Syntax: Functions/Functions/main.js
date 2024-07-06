@@ -41,7 +41,8 @@ const totalCost = costOfMonitors(5, 4);
 console.log(totalCost);
 
 // Function Expressions
-const plantNeedsWater = function (day) {
+// Arrow Functions
+const plantNeedsWater = (day) => {
     if (day === 'Wednesday') {
         return true;
     } else {

@@ -42,12 +42,7 @@ console.log(totalCost);
 
 // Function Expressions
 // Arrow Functions
-const plantNeedsWater = (day) => {
-    if (day === 'Wednesday') {
-        return true;
-    } else {
-        return false;
-    }
-}
+// Concise Body Arrow Functions
+const plantNeedsWater = day => day === 'Wednesday' ? true : false;
 
 console.log(plantNeedsWater('Tuesday'));

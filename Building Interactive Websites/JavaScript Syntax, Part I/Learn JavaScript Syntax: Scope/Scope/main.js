@@ -34,3 +34,17 @@ const callMyNightSky1 = () => {
 
 console.log(callMyNightSky1());
 console.log(stars)
+
+// Practice Good Scoping
+const logVisibleLightWaves1 = () => {
+    let lightWaves = 'Moonlight';
+    let region = 'The Arctic';
+    // Add if statement here:
+    if (region === 'The Arctic') {
+        let lightWaves = 'Northern Lights';
+        console.log(lightWaves);
+    }
+    console.log(lightWaves);
+};
+
+logVisibleLightWaves1();

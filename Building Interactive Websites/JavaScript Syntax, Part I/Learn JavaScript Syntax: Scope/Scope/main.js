@@ -25,3 +25,12 @@ function logVisibleLightWaves() {
 
 logVisibleLightWaves();
 console.log(lightWaves);  // ReferenceError: lightWaves is not defined
+
+// Scope Pollution
+const callMyNightSky1 = () => {
+    stars = 'Sirius';
+    return 'Night Sky: ' + satellite + ', ' + stars + ', ' + galaxy;
+};
+
+console.log(callMyNightSky1());
+console.log(stars)

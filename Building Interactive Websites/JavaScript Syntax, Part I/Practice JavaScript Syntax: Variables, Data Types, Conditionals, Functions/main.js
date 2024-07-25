@@ -102,3 +102,8 @@ function truthyOrFalsy(value) {
 function numImaginaryFriends(totalNumOfFriends) {
     return Math.ceil(totalNumOfFriends / 4);
 }
+
+// sillySentence()
+function sillySentence(adjective, verb, noun) {
+    return `I am so ${adjective} because I ${verb} coding! Time to write some more awesome ${noun}!`;
+}

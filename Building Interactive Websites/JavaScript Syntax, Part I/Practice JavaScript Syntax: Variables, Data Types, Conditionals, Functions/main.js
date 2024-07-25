@@ -58,3 +58,8 @@ function finalGrade(num1, num2, num3) {
         return 'A';
     }
 }
+
+// reportingForDuty()
+function reportingForDuty(rank, lastName) {
+    return `${rank} ${lastName} reporting for duty!`;
+}

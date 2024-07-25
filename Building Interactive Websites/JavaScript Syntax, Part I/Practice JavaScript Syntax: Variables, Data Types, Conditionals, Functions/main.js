@@ -63,3 +63,10 @@ function finalGrade(num1, num2, num3) {
 function reportingForDuty(rank, lastName) {
     return `${rank} ${lastName} reporting for duty!`;
 }
+
+// Fix The Broken Code
+const rollTheDice = () => {
+    let die1 = Math.floor(Math.random() * 6) + 1;
+    let die2 = Math.floor(Math.random() * 6) + 1;
+    return die1 + die2;
+}

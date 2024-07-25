@@ -107,3 +107,18 @@ function numImaginaryFriends(totalNumOfFriends) {
 function sillySentence(adjective, verb, noun) {
     return `I am so ${adjective} because I ${verb} coding! Time to write some more awesome ${noun}!`;
 }
+
+// howOld()
+function howOld(age, year) {
+    const currentYear = new Date().getFullYear();
+    const yearDifference = year - currentYear;
+    const newAge = age + yearDifference;
+
+    if (newAge < 0) {
+        return `The year ${year} was ${-newAge} years before you were born`;
+    } else if (newAge > age) {
+        return `You will be ${newAge} in the year ${year}`;
+    } else {
+        return `You were ${newAge} in the year ${year}`;
+    }
+}

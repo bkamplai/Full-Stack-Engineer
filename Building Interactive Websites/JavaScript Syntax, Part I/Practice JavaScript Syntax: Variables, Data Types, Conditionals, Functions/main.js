@@ -88,3 +88,12 @@ function calculateWeight(earthWeight, planet) {
             return 'Invalid Planet Entry. Try: Mercury, Venus, Mars, Jupiter, or Saturn.';
     }
 }
+
+// truthyOrFalsy()
+function truthyOrFalsy(value) {
+    if (value) {
+        return true;
+    } else {
+        return false;
+    }
+}

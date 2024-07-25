@@ -97,3 +97,8 @@ function truthyOrFalsy(value) {
         return false;
     }
 }
+
+// numImaginaryFriends()
+function numImaginaryFriends(totalNumOfFriends) {
+    return Math.ceil(totalNumOfFriends / 4);
+}

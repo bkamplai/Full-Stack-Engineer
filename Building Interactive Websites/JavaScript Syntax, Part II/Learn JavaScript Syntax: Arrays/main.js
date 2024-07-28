@@ -34,3 +34,7 @@ console.log(objectives.length);  // Prints: 3
 const chores = ['wash dishes', 'do laundry', 'take out trash'];
 chores.push('change the cat box', 'pick up dog poop');
 console.log(chores);  // Prints: [ 'wash dishes', 'do laundry', 'take out trash', 'change the cat box', 'pick up dog poop' ]
+
+// The .pop() Method
+chores.pop();
+console.log(chores);  // Prints: [ 'wash dishes', 'do laundry', 'take out trash', 'change the cat box' ]

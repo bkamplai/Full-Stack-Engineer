@@ -108,6 +108,7 @@ Here are some of the projects I have completed:
 27. [Rock, Paper, or Scissors](https://github.com/bkamplai/Full-Stack-Engineer/blob/main/Building%20Interactive%20Websites/JavaScript%20Syntax%2C%20Part%20I/Learn%20JavaScript%20Syntax%3A%20Functions/Rock%2C%20Paper%2C%20Or%20Scissors/rockPaperScissors.js)
 28. [Sleep Debt Calculator](https://github.com/bkamplai/Full-Stack-Engineer/blob/main/Building%20Interactive%20Websites/JavaScript%20Syntax%2C%20Part%20I/Learn%20JavaScript%20Syntax%3A%20Functions/Sleep%20Debt%20Calculator/sleepDebtCalculator.js)
 29. [Training Days](https://github.com/bkamplai/Full-Stack-Engineer/blob/main/Building%20Interactive%20Websites/JavaScript%20Syntax%2C%20Part%20I/Learn%20JavaScript%20Syntax%3A%20Scope/Training%20Days/trainingDays.js)
+30. [Challenge Project: Number Guesser](https://bkamplai.github.io/Full-Stack-Engineer/Challenge%20Project%3A%20Number%20Guesser/)
 
 ## How to Use This Repository
 

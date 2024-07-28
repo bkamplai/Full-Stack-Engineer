@@ -53,3 +53,20 @@ console.log(groceryList);                           // Prints: [ 'popcorn', 'ban
 
 const pastaIndex = groceryList.indexOf('pasta');
 console.log(pastaIndex);                            // Prints: 4
+
+// Arrays and Functions
+const concept = ['arrays', 'can', 'be', 'mutated'];
+
+function changeArr(arr) {
+    arr[3] = 'MUTATED';
+}
+
+changeArr(concept);
+console.log(concept);               // Prints: [ 'arrays', 'can', 'be', 'MUTATED' ]
+
+function removeElement(newArr) {
+    newArr.pop();
+}
+
+removeElement(concept);
+console.log(concept);               // Prints: [ 'arrays', 'can', 'be' ]

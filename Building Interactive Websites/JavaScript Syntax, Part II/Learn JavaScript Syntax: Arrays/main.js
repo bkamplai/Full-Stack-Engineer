@@ -12,3 +12,16 @@ console.log(famousSayings[3]);  // Prints: undefined
 // Update Elements
 let groceryList = ['bread', 'tomatoes', 'milk'];
 groceryList[1] = 'avocados';
+
+// Arrays with let and const
+let condiments = ['Ketchup', 'Mustard', 'Soy Sauce', 'Sriracha'];
+const utensils = ['Fork', 'Knife', 'Chopsticks', 'Spork'];
+
+condiments[0] = 'Mayo';
+console.log(condiments);  // Prints: [ 'Mayo', 'Mustard', 'Soy Sauce', 'Sriracha' ]
+
+condiments = ['Mayo'];
+console.log(condiments);  // Prints: [ 'Mayo' ]
+
+utensils[3] = 'Spoon';
+console.log(utensils);  // Prints: [ 'Fork', 'Knife', 'Chopsticks', 'Spoon' ]

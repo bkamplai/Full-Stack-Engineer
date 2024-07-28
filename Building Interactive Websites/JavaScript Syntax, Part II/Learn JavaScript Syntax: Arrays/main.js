@@ -8,3 +8,7 @@ const listItem = famousSayings[0];
 console.log(listItem);          // Prints: Fortune favors the brave.
 console.log(famousSayings[2]);  // Prints: Where there is love there is life.
 console.log(famousSayings[3]);  // Prints: undefined
+
+// Update Elements
+let groceryList = ['bread', 'tomatoes', 'milk'];
+groceryList[1] = 'avocados';

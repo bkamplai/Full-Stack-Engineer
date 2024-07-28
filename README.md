@@ -106,6 +106,8 @@ Here are some of the projects I have completed:
 25. [Magic Eight Ball](https://github.com/bkamplai/Full-Stack-Engineer/blob/main/Building%20Interactive%20Websites/JavaScript%20Syntax%2C%20Part%20I/Learn%20JavaScript%20Syntax%3A%20Conditionals/Magic%20Eight%20Ball/main.js)
 26. [Race Day](https://github.com/bkamplai/Full-Stack-Engineer/blob/main/Building%20Interactive%20Websites/JavaScript%20Syntax%2C%20Part%20I/Learn%20JavaScript%20Syntax%3A%20Conditionals/Race%20Day/main.js)
 27. [Rock, Paper, or Scissors](https://github.com/bkamplai/Full-Stack-Engineer/blob/main/Building%20Interactive%20Websites/JavaScript%20Syntax%2C%20Part%20I/Learn%20JavaScript%20Syntax%3A%20Functions/Rock%2C%20Paper%2C%20Or%20Scissors/rockPaperScissors.js)
+28. [Sleep Debt Calculator](https://github.com/bkamplai/Full-Stack-Engineer/blob/main/Building%20Interactive%20Websites/JavaScript%20Syntax%2C%20Part%20I/Learn%20JavaScript%20Syntax%3A%20Functions/Sleep%20Debt%20Calculator/sleepDebtCalculator.js)
+29. [Training Days](https://github.com/bkamplai/Full-Stack-Engineer/blob/main/Building%20Interactive%20Websites/JavaScript%20Syntax%2C%20Part%20I/Learn%20JavaScript%20Syntax%3A%20Scope/Training%20Days/trainingDays.js)
 
 ## How to Use This Repository
 

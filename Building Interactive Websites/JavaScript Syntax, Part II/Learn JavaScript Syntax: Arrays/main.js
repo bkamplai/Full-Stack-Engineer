@@ -29,3 +29,8 @@ console.log(utensils);  // Prints: [ 'Fork', 'Knife', 'Chopsticks', 'Spoon' ]
 // The .length property
 const objectives = ['Learn a new language', 'Read 52 books', 'Run a marathon'];
 console.log(objectives.length);  // Prints: 3
+
+// The .push() Method
+const chores = ['wash dishes', 'do laundry', 'take out trash'];
+chores.push('change the cat box', 'pick up dog poop');
+console.log(chores);  // Prints: [ 'wash dishes', 'do laundry', 'take out trash', 'change the cat box', 'pick up dog poop' ]

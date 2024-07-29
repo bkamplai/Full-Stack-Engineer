@@ -18,3 +18,16 @@ for (let counter = 3; counter >= 0; counter--) {
 for (let i = 0; i < vacationSpots.length; i++) {
     console.log(`I would love to visit ${vacationSpots[i]}`);
 }
+
+// Nested Loops
+const bobsFollowers = ['Behram', 'Áshildr', 'Narkissos', 'Eduard'];
+const tinasFollowers = ['Công', 'Behram', 'Narkissos'];
+const mutualFollowers = [];
+
+for (let i = 0; i < bobsFollowers.length; i++) {
+    for (let j = 0; j < tinasFollowers.length; j++) {
+        if (bobsFollowers[i] === tinasFollowers[j]) {
+            mutualFollowers.push(bobsFollowers[i]);
+        }
+    }
+}

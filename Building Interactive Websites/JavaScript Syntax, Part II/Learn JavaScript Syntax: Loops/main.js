@@ -13,3 +13,8 @@ for (let i = 5; i < 11; i++) {
 for (let counter = 3; counter >= 0; counter--) {
     console.log(counter);
 }
+
+// Looping through Arrays
+for (let i = 0; i < vacationSpots.length; i++) {
+    console.log(`I would love to visit ${vacationSpots[i]}`);
+}

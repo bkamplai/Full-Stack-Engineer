@@ -39,3 +39,12 @@ while (currentCard !== 'spade') {
     currentCard = cards[Math.floor(Math.random() * 4)];
     console.log(currentCard);
 }
+
+// Do...While Statements
+const cupsOfSugarNeeded = Math.floor(Math.random() * 11);
+let cupsAdded = 0;
+
+do {
+    cupsAdded++;
+    console.log(cupsAdded + ' cup was added');
+} while (cupsAdded < cupsOfSugarNeeded);

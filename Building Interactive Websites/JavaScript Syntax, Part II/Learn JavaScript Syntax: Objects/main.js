@@ -45,3 +45,28 @@ const robot4 = {
 };
 
 console.log(robot4.energyLevel);  // Prints: My current energy level is 100
+
+// Setters
+const robot5 = {
+    _model: '1E78V2',
+    _energyLevel: 100,
+    _numOfSensors: 15,
+    get numOfSensors() {
+        if (typeof this._numOfSensors === 'number') {
+            return this._numOfSensors;
+        } else {
+            return 'Sensors are currently down.'
+        }
+    },
+    set numOfSensors(num) {
+        if (typeof num === 'number' && num >= 0) {
+            this._numOfSensors = num;
+        } else {
+            console.log('Pass in a number that is greater than or equal to 0');
+        }
+    }
+};
+
+
+robot5.numOfSensors = 100;
+console.log(robot5.numOfSensors)  // Prints: 100

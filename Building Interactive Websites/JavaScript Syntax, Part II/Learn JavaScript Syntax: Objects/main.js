@@ -8,3 +8,13 @@ const robot = {
 };
 
 console.log(robot.provideInfo());
+
+// Arrow Functions and this
+const robot2 = {
+    energyLevel: 100,
+    checkEnergy() {
+        console.log(`Energy is currently at ${this.energyLevel}%.`);
+    }
+};
+
+robot2.checkEnergy();

@@ -108,3 +108,37 @@ greenEnergy(spaceship4);
 remotelyDisable(spaceship4);
 
 console.log(spaceship4);
+
+// Looping Through Objects
+let spaceship5 = {
+    crew: {
+        captain: {
+            name: 'Lily',
+            degree: 'Computer Engineering',
+            cheerTeam() { console.log('You got this!') }
+        },
+        'chief officer': {
+            name: 'Dan',
+            degree: 'Aerospace Engineering',
+            agree() { console.log('I agree, captain!') }
+        },
+        medic: {
+            name: 'Clementine',
+            degree: 'Physics',
+            announce() { console.log(`Jets on!`) }
+        },
+        translator: {
+            name: 'Shauna',
+            degree: 'Conservation Science',
+            powerFuel() { console.log('The tank is full!') }
+        }
+    }
+};
+
+for (let crewMember in spaceship5.crew) {
+    console.log(`${crewMember}: ${spaceship5.crew[crewMember].name}`);
+}
+
+for (let crewMember in spaceship5.crew) {
+    console.log(`${spaceship5.crew[crewMember].name}: ${spaceship5.crew[crewMember].degree}`);
+}

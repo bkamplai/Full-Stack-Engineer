@@ -7,7 +7,7 @@ const robot = {
     }
 };
 
-console.log(robot.provideInfo());
+console.log(robot.provideInfo());  // Prints: I am 1E78V2 and my current energy level is 100.
 
 // Arrow Functions and this
 const robot2 = {
@@ -17,4 +17,16 @@ const robot2 = {
     }
 };
 
-robot2.checkEnergy();
+robot2.checkEnergy();  // Prints: Energy is currently at 100%.
+
+// Privacy
+const robot3 = {
+    _energyLevel: 100,
+    recharge(){
+      this._energyLevel += 30;
+      console.log(`Recharged! Energy is currently at ${this._energyLevel}%.`)
+    }
+  };
+  
+  robot3._energyLevel = 'high';
+  robot3.recharge();  // Prints: Recharged! Energy is currently at high30%.

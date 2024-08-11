@@ -70,3 +70,17 @@ const robot5 = {
 
 robot5.numOfSensors = 100;
 console.log(robot5.numOfSensors)  // Prints: 100
+
+// Factory Functions
+const robotFactory = (model, mobile) => {
+    return {
+        model: model,
+        mobile: mobile,
+        beep() {
+            console.log('Beep Boop');
+        }
+    }
+};
+
+const tinCan = robotFactory('P-500', true);
+tinCan.beep();  // Prints: Beep Boop

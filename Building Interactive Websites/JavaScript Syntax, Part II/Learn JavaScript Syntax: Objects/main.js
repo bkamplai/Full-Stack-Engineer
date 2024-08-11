@@ -84,3 +84,18 @@ const robotFactory = (model, mobile) => {
 
 const tinCan = robotFactory('P-500', true);
 tinCan.beep();  // Prints: Beep Boop
+
+// Property Value Shorthand
+const newRobotFactory = (model, mobile) => {
+    return {
+        model,
+        mobile,
+        beep() {
+            console.log('Beep Boop');
+        }
+    }
+}
+
+const newRobot = newRobotFactory('P-501', false);
+console.log(newRobot.model);  // Prints: P-501
+console.log(newRobot.mobile);  // Prints: false

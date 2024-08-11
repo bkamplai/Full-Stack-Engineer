@@ -109,6 +109,10 @@ Here are some of the projects I have completed:
 28. [Sleep Debt Calculator](https://github.com/bkamplai/Full-Stack-Engineer/blob/main/Building%20Interactive%20Websites/JavaScript%20Syntax%2C%20Part%20I/Learn%20JavaScript%20Syntax%3A%20Functions/Sleep%20Debt%20Calculator/sleepDebtCalculator.js)
 29. [Training Days](https://github.com/bkamplai/Full-Stack-Engineer/blob/main/Building%20Interactive%20Websites/JavaScript%20Syntax%2C%20Part%20I/Learn%20JavaScript%20Syntax%3A%20Scope/Training%20Days/trainingDays.js)
 30. [Challenge Project: Number Guesser](https://bkamplai.github.io/Full-Stack-Engineer/Challenge%20Project%3A%20Number%20Guesser/)
+31. [Secret Message](https://github.com/bkamplai/Full-Stack-Engineer/blob/main/Building%20Interactive%20Websites/JavaScript%20Syntax%2C%20Part%20II/Learn%20JavaScript%20Syntax%3A%20Arrays/Secret%20Message/app.js)
+32. [Whale Talk](https://github.com/bkamplai/Full-Stack-Engineer/blob/main/Building%20Interactive%20Websites/JavaScript%20Syntax%2C%20Part%20II/Learn%20JavaScript%20Syntax%3A%20Loops/Whale%20Talk/main.js)
+33. [Meal Maker](https://github.com/bkamplai/Full-Stack-Engineer/blob/main/Building%20Interactive%20Websites/JavaScript%20Syntax%2C%20Part%20II/Learn%20JavaScript%20Syntax%3A%20Objects/Meal%20Maker/app.js)
+34. [Team Stats](https://github.com/bkamplai/Full-Stack-Engineer/blob/main/Building%20Interactive%20Websites/JavaScript%20Syntax%2C%20Part%20II/Learn%20JavaScript%20Syntax%3A%20Objects/Team%20Stats/app.js)
 
 ## How to Use This Repository
 

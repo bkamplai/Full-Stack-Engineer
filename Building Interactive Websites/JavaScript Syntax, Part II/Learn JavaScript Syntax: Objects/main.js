@@ -99,3 +99,20 @@ const newRobotFactory = (model, mobile) => {
 const newRobot = newRobotFactory('P-501', false);
 console.log(newRobot.model);  // Prints: P-501
 console.log(newRobot.mobile);  // Prints: false
+
+// Destructured Assignment
+const robot6 = {
+    model: '1E78V2',
+    energyLevel: 100,
+    functionality: {
+        beep() {
+            console.log('Beep Boop');
+        },
+        fireLaser() {
+            console.log('Pew Pew');
+        }
+    }
+};
+
+const { functionality } = robot6;
+functionality.beep();  // Prints: Beep Boop

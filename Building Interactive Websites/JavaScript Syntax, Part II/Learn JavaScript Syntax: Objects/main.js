@@ -132,5 +132,5 @@ console.log(robotKeys);  // Prints: [ 'model', 'mobile', 'sentient', 'armor', 'e
 const robotEntries = Object.entries(robot7);
 console.log(robotEntries);  // Prints: [ [ 'model', 'SAL-1000' ], [ 'mobile', true ], [ 'sentient', false ], [ 'armor', 'Steel-plated' ], [ 'energyLevel', 75 ] ]
 
-const newRobot1 = Object.assign({laserBlaster: true, voiceRecognition: true}, robot7);
+const newRobot1 = Object.assign({ laserBlaster: true, voiceRecognition: true }, robot7);
 console.log(newRobot1);  // Prints: { model: 'SAL-1000', mobile: true, sentient: false, armor: 'Steel-plated', energyLevel: 75, laserBlaster: true, voiceRecognition: true }

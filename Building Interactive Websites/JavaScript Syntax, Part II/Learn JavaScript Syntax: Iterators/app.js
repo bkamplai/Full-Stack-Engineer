@@ -29,3 +29,7 @@ const checkConsistentOutput = (func, val) => {
 }
 
 console.log(checkConsistentOutput(addTwo, 8));
+
+// The .forEach() Method
+const fruits = ['mango', 'papaya', 'pineapple', 'apple'];
+fruits.forEach(fuit => console.log(`I want to eat a ${fuit}`));

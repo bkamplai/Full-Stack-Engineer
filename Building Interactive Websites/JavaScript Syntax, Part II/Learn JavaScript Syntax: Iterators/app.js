@@ -42,3 +42,10 @@ console.log(secretMessage.join(''));
 const bigNumbers = [100, 200, 300, 400, 500];
 const smallNumbers = bigNumbers.map(number => number / 100);
 console.log(smallNumbers);
+
+// The .filter() Method
+const randomNumbers = [375, 200, 3.14, 7, 13, 852];
+const smallNumbers2 = randomNumbers.filter(number => number < 250);
+
+const favoriteWords = ['nostalgia', 'hyperbole', 'fervent', 'esoteric', 'serene'];
+const longFavoriteWords = favoriteWords.filter(word => word.length > 7);

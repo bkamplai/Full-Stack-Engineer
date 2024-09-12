@@ -49,3 +49,8 @@ const smallNumbers2 = randomNumbers.filter(number => number < 250);
 
 const favoriteWords = ['nostalgia', 'hyperbole', 'fervent', 'esoteric', 'serene'];
 const longFavoriteWords = favoriteWords.filter(word => word.length > 7);
+
+// The .findIndex() Method
+const animals2 = ['hippo', 'tiger', 'lion', 'seal', 'cheetah', 'monkey', 'salamander', 'elephant'];
+const foundAnimal = animals2.findIndex(animal => animal === 'elephant');
+const startsWithS = animals2.findIndex(animal => animal[0] === 's');

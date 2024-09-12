@@ -33,3 +33,12 @@ console.log(checkConsistentOutput(addTwo, 8));
 // The .forEach() Method
 const fruits = ['mango', 'papaya', 'pineapple', 'apple'];
 fruits.forEach(fuit => console.log(`I want to eat a ${fuit}`));
+
+// The .map() Method
+const animals = ['Hen', 'elephant', 'llama', 'leopard', 'ostrich', 'Whale', 'octopus', 'rabbit', 'lion', 'dog'];
+const secretMessage = animals.map(animal => animal[0]);
+console.log(secretMessage.join(''));
+
+const bigNumbers = [100, 200, 300, 400, 500];
+const smallNumbers = bigNumbers.map(number => number / 100);
+console.log(smallNumbers);

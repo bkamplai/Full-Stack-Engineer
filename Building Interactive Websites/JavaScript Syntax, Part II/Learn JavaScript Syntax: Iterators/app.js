@@ -71,3 +71,19 @@ console.log(words.some(word => word.length < 6));
 
 const interestingWords = words.filter(word => word.length > 5);
 console.log(interestingWords.every(word => word.length > 5));
+
+// Choose the Right Iterator
+const cities = ['Orlando', 'Dubai', 'Edinburgh', 'Chennai', 'Accra', 'Denver', 'Eskisehir', 'Medellin', 'Yokohama'];
+const nums = [1, 50, 75, 200, 350, 525, 1000];
+
+cities.forEach(city => console.log('Have you visited ' + city + '?'));
+
+const longCities = cities.filter(city => city.length > 7);
+
+const word = cities.reduce((acc, currVal) => {
+    return acc + currVal[0];
+}, "C");
+console.log(word);
+
+const smallerNums = nums.map(num => num - 5);
+nums.every(num => num < 0);

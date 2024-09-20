@@ -25,3 +25,25 @@ console.log('isSumBigger(1, 3, 2) returns: ' + isSumBigger(1, 3, 2));
 
 // Should return false
 console.log('isSumBigger(1, 3, 5) returns: ' + isSumBigger(1, 3, 5));
+
+// Locating Silent Bugs
+function capitalizeASingleWord(word) {
+    // console.log(word);
+    if (word.match(' ')) {
+        console.log('Word value inside of if statement: ' + word);
+        return null;
+    }
+
+    let firstLetter = word.charAt(0);
+    let restOfWord = word.slice(1);
+
+    firstLetter = firstLetter.toUpperCase();
+
+    return firstLetter + restOfWord;
+}
+
+// Should return: "Hey"
+console.log("capitalizeASingleWord('hey') returns: " + capitalizeASingleWord('hey'));
+
+// Should return: null
+console.log("capitalizeASingleWord('hey ho') returns: " + capitalizeASingleWord('hey ho'));

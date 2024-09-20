@@ -113,6 +113,7 @@ Here are some of the projects I have completed:
 32. [Whale Talk](https://github.com/bkamplai/Full-Stack-Engineer/blob/main/Building%20Interactive%20Websites/JavaScript%20Syntax%2C%20Part%20II/Learn%20JavaScript%20Syntax%3A%20Loops/Whale%20Talk/main.js)
 33. [Meal Maker](https://github.com/bkamplai/Full-Stack-Engineer/blob/main/Building%20Interactive%20Websites/JavaScript%20Syntax%2C%20Part%20II/Learn%20JavaScript%20Syntax%3A%20Objects/Meal%20Maker/app.js)
 34. [Team Stats](https://github.com/bkamplai/Full-Stack-Engineer/blob/main/Building%20Interactive%20Websites/JavaScript%20Syntax%2C%20Part%20II/Learn%20JavaScript%20Syntax%3A%20Objects/Team%20Stats/app.js)
+35. [Grammar Checker](https://github.com/bkamplai/Full-Stack-Engineer/blob/main/Building%20Interactive%20Websites/JavaScript%20Syntax%2C%20Part%20II/Learn%20JavaScript%20Syntax%3A%20Iterators/Grammar%20Checker/main%2Cjs)
 
 ## How to Use This Repository
 

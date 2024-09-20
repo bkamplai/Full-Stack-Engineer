@@ -87,3 +87,11 @@ const toSquare = num => num * num;
 const squareNums = arr => arr.map(toSquare);
 
 console.log(squareNums(numbers1));
+
+// shoutGreetings()
+const shoutGreetings = arr => arr.map(e => e.toUpperCase() + '!');
+
+const greetings = ['hello', 'hi', 'heya', 'oi', 'hey', 'yo'];
+
+console.log(shoutGreetings(greetings));
+// Should print [ 'HELLO!', 'HI!', 'HEYA!', 'OI!', 'HEY!', 'YO!' ]

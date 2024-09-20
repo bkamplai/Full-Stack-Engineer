@@ -103,3 +103,13 @@ const years = [1970, 1999, 1951, 1982, 1963, 2011, 2018, 1922]
 
 console.log(sortYears(years));
 // Should print [ 2018, 2011, 1999, 1982, 1970, 1963, 1951, 1922 ]
+
+// justCoolStuff()
+const justCoolStuff = (firstArray, secondArray) => firstArray.filter(e => secondArray.includes(e));
+
+const coolStuff = ['gameboys', 'skateboards', 'backwards hats', 'fruit-by-the-foot', 'pogs', 'my room', 'temporary tattoos'];
+
+const myStuff = [ 'rules', 'fruit-by-the-foot', 'wedgies', 'sweaters', 'skateboards', 'family-night', 'my room', 'braces', 'the information superhighway'];
+
+console.log(justCoolStuff(myStuff, coolStuff));
+// Should print [ 'fruit-by-the-foot', 'skateboards', 'my room' ]

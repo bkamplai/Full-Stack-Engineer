@@ -109,7 +109,7 @@ const justCoolStuff = (firstArray, secondArray) => firstArray.filter(e => second
 
 const coolStuff = ['gameboys', 'skateboards', 'backwards hats', 'fruit-by-the-foot', 'pogs', 'my room', 'temporary tattoos'];
 
-const myStuff = [ 'rules', 'fruit-by-the-foot', 'wedgies', 'sweaters', 'skateboards', 'family-night', 'my room', 'braces', 'the information superhighway'];
+const myStuff = ['rules', 'fruit-by-the-foot', 'wedgies', 'sweaters', 'skateboards', 'family-night', 'my room', 'braces', 'the information superhighway'];
 
 console.log(justCoolStuff(myStuff, coolStuff));
 // Should print [ 'fruit-by-the-foot', 'skateboards', 'my room' ]
@@ -117,13 +117,13 @@ console.log(justCoolStuff(myStuff, coolStuff));
 // isTheDinnerVegan()
 const isTheDinnerVegan = arr => arr.every(e => e.source === 'plant');
 
-const dinner = [{name: 'hamburger', source: 'meat'}, {name: 'cheese', source: 'dairy'}, {name: 'ketchup', source:'plant'}, {name: 'bun', source: 'plant'}, {name: 'dessert twinkies', source:'unknown'}];
+const dinner = [{ name: 'hamburger', source: 'meat' }, { name: 'cheese', source: 'dairy' }, { name: 'ketchup', source: 'plant' }, { name: 'bun', source: 'plant' }, { name: 'dessert twinkies', source: 'unknown' }];
 
 console.log(isTheDinnerVegan(dinner));
 // Should print false
 
 // sortSpeciesByTeeth()
-const speciesArray = [ {speciesName:'shark', numTeeth:50}, {speciesName:'dog', numTeeth:42}, {speciesName:'alligator', numTeeth:80}, {speciesName:'human', numTeeth:32}];
+const speciesArray = [{ speciesName: 'shark', numTeeth: 50 }, { speciesName: 'dog', numTeeth: 42 }, { speciesName: 'alligator', numTeeth: 80 }, { speciesName: 'human', numTeeth: 32 }];
 
 const sortSpeciesByTeeth = arr => arr.sort((a, b) => a.numTeeth - b.numTeeth);
 
@@ -141,3 +141,41 @@ const randomStuff = ['credit card', 'screwdriver', 'receipt', 'gum', 'keys', 'us
 
 console.log(findMyKeys(randomStuff));
 // Should print 4
+
+// dogFactory()
+const dogFactory = (name, breed, weight) => {
+    return {
+        _name: name,
+        _breed: breed,
+        _weight: weight,
+        get name() {
+            return this._name;
+        },
+        set name(newName) {
+            this._name = newName;
+        },
+        get breed() {
+            return this._breed;
+        },
+        set breed(newBreed) {
+            this._breed = newBreed;
+        },
+        get weight() {
+            return this._weight;
+        },
+        set weight(newWeight) {
+            this._weight = newWeight;
+        },
+        bark() {
+            return 'ruff! ruff!';
+        },
+        eatTooManyTreats() {
+            this._weight++;
+        }
+    };
+};
+
+const dog = dogFactory('Joe', 'Pug', 27);
+
+console.log(dog.bark());
+console.log(dog.eatTooManyTreats());

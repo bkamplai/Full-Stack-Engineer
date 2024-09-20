@@ -22,3 +22,16 @@ function greetAliens(aliens) {
 const aliens = ["Blorgous", "Glamyx", "Wegord", "SpaceKing"];
 
 greetAliens(aliens);
+
+// convertToBaby()
+function convertToBaby(array) {
+    let babyArray = [];
+    for (let i = 0; i < array.length; i++) {
+        babyArray.push(`baby ${array[i]}`);
+    }
+    return babyArray;
+}
+
+const animals = ['panda', 'turtle', 'giraffe', 'hippo', 'sloth', 'human'];
+
+console.log(convertToBaby(animals));

@@ -57,3 +57,24 @@ const smallestPowerOfTwo = arr => {
 
 console.log(smallestPowerOfTwo(numbers))
 // Should print the returned array [ 8, 4, 16, 32 ] instead prints the returned array [8]
+
+// declineEverything() and acceptEverything()
+const veggies = ['broccoli', 'spinach', 'cauliflower', 'broccoflower'];
+
+const politelyDecline = (veg) => {
+    console.log(`No ${veg} please. I will have pizza with extra cheese.`);
+}
+
+const declineEverything = (arr) => {
+    arr.forEach(politelyDecline);
+}
+
+declineEverything(veggies);
+
+const acceptEverything = (arr) => {
+    arr.forEach(e => {
+        console.log(`Ok, I guess I will eat some ${e}.`);
+    });
+}
+
+acceptEverything(veggies);

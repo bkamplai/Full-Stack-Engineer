@@ -133,3 +133,11 @@ console.log(sortSpeciesByTeeth(speciesArray));
 //   { speciesName: 'dog', numTeeth: 42 },
 //   { speciesName: 'shark', numTeeth: 50 },
 //   { speciesName: 'alligator', numTeeth: 80 } ]
+
+// findMyKeys()
+const findMyKeys = arr => arr.findIndex(e => e === 'keys');
+
+const randomStuff = ['credit card', 'screwdriver', 'receipt', 'gum', 'keys', 'used gum', 'plastic spoon'];
+
+console.log(findMyKeys(randomStuff));
+// Should print 4

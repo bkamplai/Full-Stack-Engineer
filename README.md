@@ -115,6 +115,7 @@ Here are some of the projects I have completed:
 34. [Team Stats](https://github.com/bkamplai/Full-Stack-Engineer/blob/main/Building%20Interactive%20Websites/JavaScript%20Syntax%2C%20Part%20II/Learn%20JavaScript%20Syntax%3A%20Objects/Team%20Stats/app.js)
 35. [Grammar Checker](https://github.com/bkamplai/Full-Stack-Engineer/blob/main/Building%20Interactive%20Websites/JavaScript%20Syntax%2C%20Part%20II/Learn%20JavaScript%20Syntax%3A%20Iterators/Grammar%20Checker/main%2Cjs)
 36. [Challenge Project: Credit Card Checker](https://github.com/bkamplai/Full-Stack-Engineer/blob/main/Building%20Interactive%20Websites/JavaScript%20Syntax%2C%20Part%20II/Challenge%20Project%3A%20Credit%20Card%20Checker/main.js)
+37. [Challenge Project: Mysterious Organism](https://github.com/bkamplai/Full-Stack-Engineer/blob/main/Building%20Interactive%20Websites/JavaScript%20Syntax%2C%20Part%20II/Challenge%20Project%3A%20Mysterious%20Organism/main.js)
 
 ## How to Use This Repository
 

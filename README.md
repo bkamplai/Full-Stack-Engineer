@@ -118,6 +118,8 @@ Here are some of the projects I have completed:
 37. [Challenge Project: Mysterious Organism](https://github.com/bkamplai/Full-Stack-Engineer/blob/main/Building%20Interactive%20Websites/JavaScript%20Syntax%2C%20Part%20II/Challenge%20Project%3A%20Mysterious%20Organism/main.js)
 38. [Manhattan Zoo](https://github.com/bkamplai/Full-Stack-Engineer/blob/main/Building%20Interactive%20Websites/Git%20and%20GitHub%2C%20Part%20I/Basic%20Git%20Workflow/meal-regimens.txt)
 39. [SnapFit Robots, Inc.](https://github.com/bkamplai/Full-Stack-Engineer/blob/main/Building%20Interactive%20Websites/Git%20and%20GitHub%2C%20Part%20I/Basic%20Git%20Workflow/meal-regimens.txt)
+40. [Poem Fiasco](https://github.com/bkamplai/Full-Stack-Engineer/commit/13db8de364d0bccb2c9893a60fad87c6ce7d6b53)
+41. [ASCII Portfolio](https://github.com/bkamplai/Full-Stack-Engineer/commit/ae1423474f0ce0875228b7d7492f1e95638097a6)
 
 ## How to Use This Repository
 

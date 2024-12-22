@@ -121,6 +121,7 @@ Here are some of the projects I have completed:
 40. [Poem Fiasco](https://github.com/bkamplai/Full-Stack-Engineer/commit/13db8de364d0bccb2c9893a60fad87c6ce7d6b53)
 41. [ASCII Portfolio](https://github.com/bkamplai/Full-Stack-Engineer/commit/ae1423474f0ce0875228b7d7492f1e95638097a6)
 42. [Portfolio Project: Mixed Messages](https://github.com/bkamplai/Full-Stack-Engineer/blob/main/Building%20Interactive%20Websites/Portfolio%20Project%3A%20JavaScript%20Syntax%20-%20Mixed%20Messages/main.js)
+43. [Piano Keys](https://bkamplai.github.io/Full-Stack-Engineer/Piano%20Keys/)
 
 ## How to Use This Repository
 

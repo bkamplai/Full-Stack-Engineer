@@ -149,6 +149,8 @@ li {
     color: #011C27;
     font-size: 18px !important;
     margin-top: 20px;
+    list-style-type: circle;
+    margin-left: 20px;
 }
 
 .ingredients li {

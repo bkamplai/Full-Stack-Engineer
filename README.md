@@ -123,6 +123,7 @@ Here are some of the projects I have completed:
 42. [Portfolio Project: Mixed Messages](https://github.com/bkamplai/Full-Stack-Engineer/blob/main/Building%20Interactive%20Websites/Portfolio%20Project%3A%20JavaScript%20Syntax%20-%20Mixed%20Messages/main.js)
 43. [Piano Keys](https://bkamplai.github.io/Full-Stack-Engineer/Piano%20Keys/)
 44. [Form a Story](https://bkamplai.github.io/Full-Stack-Engineer/Form%20a%20Story/)
+45. [Portfolio Project: Personal Portfolio Website](https://bkamplai.github.io/Full-Stack-Engineer/index.html)
 
 ## How to Use This Repository
 

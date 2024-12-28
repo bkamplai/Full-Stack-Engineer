@@ -58,3 +58,23 @@ const surgeonJackson = new Surgeon('Ruth Jackson', 'Orthopedics');
 console.log(surgeonRomero.name);
 surgeonRomero.takeVacationDays(3);
 console.log(surgeonRomero.remainingVacationDays);
+
+// Inheritance II
+class HospitalEmployee {
+    constructor(name) {
+        this._name = name;
+        this._remainingVacationDays = 20;
+    }
+
+    get name() {
+        return this._name;
+    }
+
+    get remainingVacationDays() {
+        return this._remainingVacationDays;
+    }
+
+    takeVacationDays(daysOff) {
+        this._remainingVacationDays -= daysOff;
+    }
+}

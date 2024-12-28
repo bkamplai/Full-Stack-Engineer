@@ -77,6 +77,11 @@ class HospitalEmployee {
     takeVacationDays(daysOff) {
         this._remainingVacationDays -= daysOff;
     }
+
+    // Static Method
+    static generatePassword() {
+        return Math.floor(Math.random() * 10000);
+    }
 }
 
 // Inheritance III

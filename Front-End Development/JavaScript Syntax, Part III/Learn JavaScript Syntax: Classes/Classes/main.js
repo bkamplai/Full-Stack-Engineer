@@ -88,3 +88,9 @@ class Nurse extends HospitalEmployee {
 }
 
 const nurseOlynyk = new Nurse('Olynyk', ['Trauma', 'Pediatrics']);
+
+// Inheritance IV
+nurseOlynyk.takeVacationDays(5);
+console.log(nurseOlynyk.remainingVacationDays);
+nurseOlynyk.addCertification('Genetics');
+console.log(nurseOlynyk.certifications);

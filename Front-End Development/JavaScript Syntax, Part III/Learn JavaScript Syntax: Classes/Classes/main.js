@@ -85,6 +85,15 @@ class Nurse extends HospitalEmployee {
         super(name);
         this._certifications = certifications;
     }
+
+    // Inheritance V
+    get certifications() {
+        return this._certifications;
+    }
+
+    addCertification(newCertification) {
+        this._certifications.push(newCertification);
+    }
 }
 
 const nurseOlynyk = new Nurse('Olynyk', ['Trauma', 'Pediatrics']);

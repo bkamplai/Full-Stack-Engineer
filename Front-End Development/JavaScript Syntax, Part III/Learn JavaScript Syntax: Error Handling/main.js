@@ -1,3 +1,4 @@
+// Runtime Errors
 console.log('This message will be printed to the console.');
 
 function throwError() {

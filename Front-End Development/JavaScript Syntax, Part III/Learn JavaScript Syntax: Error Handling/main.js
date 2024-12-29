@@ -9,3 +9,10 @@ function throwError() {
 throwError();
 
 console.log('Because of the error, this will not be printed!');
+
+// Constructing an Error
+// Write your code below:
+console.log(Error('User missing name'));
+
+
+console.log('Will logging the error stop our program from running?');

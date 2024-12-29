@@ -19,3 +19,10 @@ console.log('Will logging the error stop our program from running?');
 
 // The throw Keyword
 throw Error('Username or password does not match');
+
+// The try...catch Statement
+try {
+    throw Error('This is an error.');
+} catch (e) {
+    console.log(e);
+}

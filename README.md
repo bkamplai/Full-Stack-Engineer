@@ -126,6 +126,7 @@ Here are some of the projects I have completed:
 45. [Portfolio Project: Personal Portfolio Website](https://bkamplai.github.io/Full-Stack-Engineer/index.html)
 46. [Build a Library](https://github.com/bkamplai/Full-Stack-Engineer/blob/main/Front-End%20Development/JavaScript%20Syntax%2C%20Part%20III/Learn%20JavaScript%20Syntax%3A%20Classes/Classes/Build%20a%20Library/app.js)
 47. [School Catalogue](https://github.com/bkamplai/Full-Stack-Engineer/blob/main/Front-End%20Development/JavaScript%20Syntax%2C%20Part%20III/Learn%20JavaScript%20Syntax%3A%20Classes/Classes/School%20Catalogue/app.js)
+48. [WorkAround Explorer](https://bkamplai.github.io/Full-Stack-Engineer/WorkAround%20Explorer/)
 
 ## How to Use This Repository
 

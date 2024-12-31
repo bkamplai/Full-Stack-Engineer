@@ -22,3 +22,5 @@
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode
 *delete
+*node_modules
+*package-lock.json

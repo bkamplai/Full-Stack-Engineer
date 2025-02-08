@@ -11,5 +11,6 @@ describe('-', () => {
 
         // Write assertion here
         assert.ok(result === expected);
+        assert.equal(result, expected);
     });
 });

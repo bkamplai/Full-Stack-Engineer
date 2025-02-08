@@ -127,6 +127,7 @@ Here are some of the projects I have completed:
 46. [Build a Library](https://github.com/bkamplai/Full-Stack-Engineer/blob/main/Front-End%20Development/JavaScript%20Syntax%2C%20Part%20III/Learn%20JavaScript%20Syntax%3A%20Classes/Classes/Build%20a%20Library/app.js)
 47. [School Catalogue](https://github.com/bkamplai/Full-Stack-Engineer/blob/main/Front-End%20Development/JavaScript%20Syntax%2C%20Part%20III/Learn%20JavaScript%20Syntax%3A%20Classes/Classes/School%20Catalogue/app.js)
 48. [WorkAround Explorer](https://bkamplai.github.io/Full-Stack-Engineer/WorkAround%20Explorer/)
+49. [Rooster Regulation](https://github.com/bkamplai/Full-Stack-Engineer/tree/main/Front-End%20Development/JavaScript%20Testing/Write%20Good%20Tests%20with%20Mocha/Rooster%20Regulation)
 
 ## How to Use This Repository
 

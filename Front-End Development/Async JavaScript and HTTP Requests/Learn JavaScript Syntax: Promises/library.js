@@ -1,5 +1,5 @@
 const inventory = {
-    sunglasses: 1900,
+    sunglasses: 0,
     pants: 1088,
     bags: 1344
 };
@@ -14,7 +14,7 @@ const checkInventory = (order) => {
                 reject(`We're sorry. Your order could not be completed because some items are sold out.`);
             }
         }, 1000);
-    })
+    });
 };
 
 module.exports = { checkInventory };

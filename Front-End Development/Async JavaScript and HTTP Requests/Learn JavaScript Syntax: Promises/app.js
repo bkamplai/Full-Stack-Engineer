@@ -46,4 +46,7 @@ function handleFailure(rejectReason) {
     console.log(rejectReason);
 }
 
-checkInventory(order).then(handleSuccess, handleFailure);
+// Using catch() with Promises
+checkInventory(order)
+    .then(handleSuccess)
+    .catch(handleFailure);

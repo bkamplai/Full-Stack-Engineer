@@ -1,3 +1,4 @@
+// Constructing a Promise Object
 const inventory = {
     // sunglasses: 1900,   // Promise { 'Sunglasses order processed.' }
     sunglasses: 0,      // Promise { <rejected> 'That item is sold out.' }
@@ -18,3 +19,15 @@ function orderSunglasses() {
 const orderPromise = orderSunglasses();
 
 console.log(orderPromise);
+
+// The Node setTimeout() Function
+console.log("This is the first line of code in app.js.");
+// Keep the line above as the first line of code
+// Write your code here:
+function usingSTO() {
+    console.log('Any string I want!');
+}
+
+setTimeout(usingSTO, Math.floor(Math.random() * (Math.floor(3000) - Math.ceil(0) + 1) + Math.ceil(0)));
+// Keep the line below as the last line of code:
+console.log("This is the last line of code in app.js.");

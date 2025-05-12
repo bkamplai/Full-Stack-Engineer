@@ -4,7 +4,7 @@ let cookBeans = () => {
             resolve('beans');
         }, 1000);
     });
-}
+};
 
 let steamBroccoli = () => {
     return new Promise((resolve, reject) => {
@@ -12,7 +12,7 @@ let steamBroccoli = () => {
             resolve('broccoli');
         }, 1000);
     });
-}
+};
 
 let cookRice = () => {
     return new Promise((resolve, reject) => {
@@ -20,7 +20,7 @@ let cookRice = () => {
             resolve('rice');
         }, 1000);
     });
-}
+};
 
 let bakeChicken = () => {
     return new Promise((resolve, reject) => {
@@ -28,6 +28,6 @@ let bakeChicken = () => {
             resolve('chicken');
         }, 1000);
     });
-}
+};
 
 module.exports = { cookBeans, steamBroccoli, cookRice, bakeChicken };

@@ -13,12 +13,14 @@ const getSuggestions = () => {
 
     fetch(endpoint, { cache: 'no-cache' })
         .then(response => {
-            if (response.ok) {
-                return response.json();
-            }
+            if (response.ok) return response.json();
             throw new Error('Request failed!');
         }, networkError => {
             console.log(networkError.message);
+        })
+        .then(jsonResponse => {
+            // renderRawResponse(jsonResponse);
+            renderResponse(jsonResponse);
         });
 }
 

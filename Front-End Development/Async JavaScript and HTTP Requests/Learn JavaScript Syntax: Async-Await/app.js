@@ -1,3 +1,4 @@
+// The async Keyword
 function withConstructor(num) {
     return new Promise((resolve, reject) => {
         if (num === 0) {
@@ -24,3 +25,22 @@ withAsync(100)
     .then((resolveValue) => {
         console.log(` withAsync(100) returned a promise which resolved to: ${resolveValue}.`);
     })
+
+// The await Operator
+const brainstormDinner = require('./library.js');
+
+// Native promise version:
+function nativePromiseDinner() {
+    brainstormDinner().then((meal) => {
+        console.log(`I'm going to make ${meal} for dinner.`);
+    });
+}
+
+// async/await version:
+async function announDinner() {
+    let meal = await brainstormDinner();
+    console.log(`I'm going to make ${meal} for dinner.`);
+}
+
+// nativePromiseDinner();
+announDinner();

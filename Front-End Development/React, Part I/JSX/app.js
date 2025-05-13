@@ -38,3 +38,8 @@ import { createRoot } from 'react-dom/client';
 const container = document.getElementById('app');
 const root = createRoot(container);
 root.render(<h1>Hello world</h1>);
+
+// Rendering JSX Explained
+const container1 = document.getElementById('container');
+const root1 = createRoot(container1);
+root1.render(<h1>Hello world</h1>);

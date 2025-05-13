@@ -79,3 +79,9 @@ const profile = (
         </article>
     </div>
 );
+
+// JavaScript In Your JSX In Your JavaScript
+const container4 = document.getElementById('app');
+const root4 = createRoot(container4);
+// Write code here:
+root4.render(<h1>2 + 3</h1>);

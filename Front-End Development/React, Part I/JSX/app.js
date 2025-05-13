@@ -155,4 +155,21 @@ if (coinToss() === "heads") {
 } else {
     img = <img src={pics.doggy} />;
 }
-root.render(img);
+root10.render(img);
+
+// JSX Conditionals: The Ternary Operators
+const container11 = document.getElementById('app');
+const root11 = createRoot(container11);
+function coinToss1() {
+    // Randomly return either 'heads' or 'tails'.
+    return Math.random() < 0.5 ? 'heads' : 'tails';
+}
+
+const pics1 = {
+    kitty: 'https://content.codecademy.com/courses/React/react_photo-kitty.jpg',
+    doggy: 'https://content.codecademy.com/courses/React/react_photo-puppy.jpeg'
+};
+
+const img1 = <img src={pics1[coinToss1() === 'heads' ? 'kitty' : 'doggy']} />;
+
+root11.render(img1);

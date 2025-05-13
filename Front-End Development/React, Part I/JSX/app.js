@@ -193,3 +193,16 @@ const favoriteFoods = (
 );
 
 root12.render(favoriteFoods);
+
+// .map in JSX
+const container13 = document.getElementById('app');
+const root13 = createRoot(container13);
+const people = ['Rowe', 'Prevost', 'Gare'];
+
+const peopleList = people.map(person =>
+    // expression goes here:
+    <li>{person}</li>
+);
+
+// root.render goes here:
+root13.render(<ul>{peopleList}</ul>);

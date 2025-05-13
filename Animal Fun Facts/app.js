@@ -5,7 +5,7 @@ import { createRoot } from 'react-dom/client';
 const container = document.getElementById('app');
 const root = createRoot(container);
 const title = '';
-const background = <img className='background' alt='ocean' src='/Full-Stack-Engineer/Animal%20Fun%20Facts/images/ocean.jpg' />;
+const background = <img className='background' alt='ocean' src='images/ocean.jpg' />;
 const images = [];
 
 for (const animal in animals) {

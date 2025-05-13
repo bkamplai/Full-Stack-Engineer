@@ -173,3 +173,23 @@ const pics1 = {
 const img1 = <img src={pics1[coinToss1() === 'heads' ? 'kitty' : 'doggy']} />;
 
 root11.render(img1);
+
+// JSX Conditionals: &&
+const container12 = document.getElementById('app');
+const root12 = createRoot(container12);
+// judgmental will be true half the time.
+const judgmental = Math.random() < 0.5;
+
+const favoriteFoods = (
+    <div>
+        <h1>My Favorite Foods</h1>
+        <ul>
+            <li>Sushi Burrito</li>
+            <li>Rhubarb Pie</li>
+            {!judgmental && <li>Nacho Cheez Straight Out The Jar</li>}
+            <li>Broiled Grapefruit</li>
+        </ul>
+    </div>
+);
+
+root12.render(favoriteFoods);

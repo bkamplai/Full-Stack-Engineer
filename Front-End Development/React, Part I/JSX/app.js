@@ -85,3 +85,9 @@ const container4 = document.getElementById('app');
 const root4 = createRoot(container4);
 // Write code here:
 root4.render(<h1>2 + 3</h1>);
+
+// Curly Braces in JSX
+const container5 = document.getElementById('app');
+const root5 = createRoot(container5);
+// Write code here:
+root5.render(<h1>{2 + 3}</h1>);

@@ -91,3 +91,10 @@ const container5 = document.getElementById('app');
 const root5 = createRoot(container5);
 // Write code here:
 root5.render(<h1>{2 + 3}</h1>);
+
+// 20 Digits of Pi in JSX
+const container6 = document.getElementById('app');
+const root6 = createRoot(container6);
+// Write code here:
+const math = <h1>2 + 3 = {2 + 3}</h1>;
+root6.render(math);

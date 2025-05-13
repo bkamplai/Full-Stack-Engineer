@@ -1571,15 +1571,15 @@
         exports.animals = void 0;
         var animals = {
             dolphin: {
-                image: '/images/dolphin.jpg',
+                image: 'images/dolphin.jpg',
                 facts: ['Dolphins have been shown to give distinct names to each other!', 'Dolphins are known to display their own culture!', 'Dolphins have two stomachs!']
             },
             lobster: {
-                image: '/images/lobster.jpg',
+                image: 'images/lobster.jpg',
                 facts: ['Lobsters taste with their legs!', 'Lobsters chew with their stomachs!', 'Lobsters can live as long as 100 years.']
             },
             starfish: {
-                image: '/images/starfish.jpg',
+                image: 'images/starfish.jpg',
                 facts: ['Starfish can have up to 40 arms!', 'Starfish have no brain and no blood!', 'Starfish can regenerate their own arms!']
             }
         };
@@ -1599,7 +1599,7 @@
         var background = /*#__PURE__*/(0, _jsxRuntime.jsx)("img", {
             className: "background",
             alt: "ocean",
-            src: "/images/ocean.jpg"
+            src: "images/ocean.jpg"
         });
         var images = [];
         for (var animal in _animals.animals) {

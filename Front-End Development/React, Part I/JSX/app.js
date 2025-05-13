@@ -206,3 +206,16 @@ const peopleList = people.map(person =>
 
 // root.render goes here:
 root13.render(<ul>{peopleList}</ul>);
+
+// Keys
+const container14 = document.getElementById('app');
+const root14 = createRoot(container14);
+const people1 = ['Rowe', 'Prevost', 'Gare'];
+
+const peopleList1 = people1.map((person, i) =>
+  // expression goes here:
+  <li key={'person_' + i}>{person}</li>
+);
+
+// root.render goes here:
+root14.render(<ul>{peopleList1}</ul>);

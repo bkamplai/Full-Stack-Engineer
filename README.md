@@ -129,6 +129,7 @@ Here are some of the projects I have completed:
 48. [WorkAround Explorer](https://bkamplai.github.io/Full-Stack-Engineer/WorkAround%20Explorer/)
 49. [Rooster Regulation](https://github.com/bkamplai/Full-Stack-Engineer/tree/main/Front-End%20Development/JavaScript%20Testing/Write%20Good%20Tests%20with%20Mocha/Rooster%20Regulation)
 50. [Factorial Feature](https://github.com/bkamplai/Full-Stack-Engineer/tree/main/Front-End%20Development/JavaScript%20Testing/Learn%20TDD%20with%20Mocha/Factorial%20Feature)
+51. [Film Finder](https://bkamplai.github.io/Full-Stack-Engineer/Film%20Finder/) ⚠️ Note: Due to API key restrictions, the live demo on GitHub Pages will not function. To test locally, clone the repo and add your own TMDB API key in `script.js`.
 
 ## How to Use This Repository
 

@@ -98,3 +98,11 @@ const root6 = createRoot(container6);
 // Write code here:
 const math = <h1>2 + 3 = {2 + 3}</h1>;
 root6.render(math);
+
+// Variables in JSX
+const container7 = document.getElementById('app');
+const root7 = createRoot(container7);
+
+const theBestString = 'This text was accessed through a javascript variable';
+
+root7.render(<h1>{theBestString}</h1>);

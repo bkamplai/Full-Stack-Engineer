@@ -115,3 +115,22 @@ const goose = 'https://content.codecademy.com/courses/React/react_photo-goose.jp
 // Declare new variable here:
 const gooseImg = <img src={goose} />;
 root8.render(gooseImg);
+
+// Event Listeners in JSX
+const container9 = document.getElementById('app');
+const root9 = createRoot(container9);
+function makeDoggy(e) {
+    // Call this extremely useful function on an <img>.
+    // The <img> will become a picture of a doggy.
+    e.target.setAttribute('src', 'https://content.codecademy.com/courses/React/react_photo-puppy.jpeg');
+    e.target.setAttribute('alt', 'doggy');
+}
+
+const kitty = (
+    <img
+        src="https://content.codecademy.com/courses/React/react_photo-kitty.jpg"
+        alt="kitty"
+        onClick={makeDoggy} />
+);
+
+root9.render(kitty);

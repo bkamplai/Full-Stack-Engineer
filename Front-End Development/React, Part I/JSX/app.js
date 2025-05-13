@@ -57,3 +57,10 @@ const myList = (
 );
 
 root2.render(myList);
+
+// class vs className
+const container3 = document.getElementById('app');
+const root3 = createRoot(container3);
+// Write code here:
+const myDiv1 = <div className='big'>I AM A BIG DIV</div>;
+root3.render(myDiv1);

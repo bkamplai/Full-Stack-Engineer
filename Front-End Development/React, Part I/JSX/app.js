@@ -213,9 +213,12 @@ const root14 = createRoot(container14);
 const people1 = ['Rowe', 'Prevost', 'Gare'];
 
 const peopleList1 = people1.map((person, i) =>
-  // expression goes here:
-  <li key={'person_' + i}>{person}</li>
+    // expression goes here:
+    <li key={'person_' + i}>{person}</li>
 );
 
 // root.render goes here:
 root14.render(<ul>{peopleList1}</ul>);
+
+// React.createElement
+const greatestDivEver = React.createElement("div", null, "i am div");

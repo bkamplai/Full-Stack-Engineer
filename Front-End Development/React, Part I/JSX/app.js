@@ -106,3 +106,12 @@ const root7 = createRoot(container7);
 const theBestString = 'This text was accessed through a javascript variable';
 
 root7.render(<h1>{theBestString}</h1>);
+
+// Variable Attributes in JSX
+const container8 = document.getElementById('app');
+const root8 = createRoot(container8);
+const goose = 'https://content.codecademy.com/courses/React/react_photo-goose.jpg';
+
+// Declare new variable here:
+const gooseImg = <img src={goose} />;
+root8.render(gooseImg);

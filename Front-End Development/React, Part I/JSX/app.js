@@ -43,3 +43,17 @@ root.render(<h1>Hello world</h1>);
 const container1 = document.getElementById('container');
 const root1 = createRoot(container1);
 root1.render(<h1>Hello world</h1>);
+
+// Passing a Variable to render()
+const container2 = document.getElementById('app');
+const root2 = createRoot(container2);
+// Write code here:
+const myList = (
+    <ul>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ul>
+);
+
+root2.render(myList);

@@ -16,6 +16,16 @@ function App() {
                 <h1>MovieFlix</h1>
                 <Greeting name="Alison" signedIn={true} />
             </div>
+            <div>
+                <List type='Living Musician'>
+                    <li>Sachiko M</li>
+                    <li>Harvey Sid Fisher</li>
+                </List>
+                <List type='Living Cat Musician'>
+                    <li>Nora the Piano Cat</li>
+                    <li>The OG Piano Cat</li>
+                </List>
+            </div>
         </>
     );
 }

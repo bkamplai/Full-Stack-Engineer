@@ -132,6 +132,7 @@ Here are some of the projects I have completed:
 51. [Film Finder](https://bkamplai.github.io/Full-Stack-Engineer/Film%20Finder/) ⚠️ Note: Due to API key restrictions, the live demo on GitHub Pages will not function. To test locally, clone the repo and add your own TMDB API key in `script.js`.
 52. [Animal Fun Facts](https://bkamplai.github.io/Full-Stack-Engineer/Animal%20Fun%20Facts/)
 53. [Authorization Form](https://bkamplai.github.io/Full-Stack-Engineer/Authorization%20Form/)
+54. [CodeyOverflow Forum](https://bkamplai.github.io/Full-Stack-Engineer/CodeyOverflow%20Forum/)
 
 ## How to Use This Repository
 

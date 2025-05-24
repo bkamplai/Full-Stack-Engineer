@@ -9,7 +9,7 @@ function Talker() {
         }
         alert(speech);
     }
-    return <Button />;
+    return <Button talk={talk} />;
 }
 
 export default Talker;

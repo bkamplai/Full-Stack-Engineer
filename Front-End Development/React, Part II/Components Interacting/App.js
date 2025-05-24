@@ -5,6 +5,8 @@ import PropsDisplayer from './PropsDisplayer';
 import Product from './Product';
 import Player from './Player';
 import Greeting from './Greeting';
+import List from './List';
+import Button from './Button1';
 
 function App() {
     return (
@@ -26,6 +28,7 @@ function App() {
                     <li>The OG Piano Cat</li>
                 </List>
             </div>
+            <Button text="" />
         </>
     );
 }
